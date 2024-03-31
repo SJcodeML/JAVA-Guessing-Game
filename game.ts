@@ -9,7 +9,7 @@ const randonNumber =Math.floor(Math.random()*10+1);
 let answer= await inquirer.prompt({
     name :"guessAnswer",
     type: "number",
-    message: "Enter your number between "
+    message: "Enter your number between 1-10 "
 
 });
 
