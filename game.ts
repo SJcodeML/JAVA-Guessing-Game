@@ -4,7 +4,7 @@ import inquirer from "inquirer";
 
 // *10 will multiply with 
 const randonNumber =Math.floor(Math.random()*10+1);
-console.log(randonNumber);
+
 
 let answer= await inquirer.prompt({
     name :"guessAnswer",
